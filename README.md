@@ -1,5 +1,6 @@
 ### Bash Script for practice
-Reharsing old stuffs
+Reharsing stuff: 
+https://www.youtube.com/watch?v=oxuRxtrO2Ag
 
 #### Useful Links
 1. Using Shell Scripting to Automate Linux System Maintenance: 
