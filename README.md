@@ -7,6 +7,8 @@ https://www.youtube.com/watch?v=oxuRxtrO2Ag
 
 https://www.tecmint.com/using-shell-script-to-automate-linux-system-maintenance-tasks/
 
+https://ryanstutorials.net/bash-scripting-tutorial/bash-script.php
+
 #### Quick guide 
 $0 - The name of the Bash script.
 
