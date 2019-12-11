@@ -41,7 +41,7 @@ variable=$( command ) Save the output of a command into a variable
 
 export var1 Make the variable var1 available to child processes.
 
-##### Operator	Description
+#### Operator	Description
 
 ! EXPRESSION	The EXPRESSION is false.
 
