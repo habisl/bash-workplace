@@ -1,4 +1,3 @@
-$ cat numbers.sh
 #!/bin/bash
 echo "Please enter first number"
 read first
@@ -18,6 +17,8 @@ else
 	echo "$first is lesser than $second"
 fi
 
+
+################ Example ##################
 $ ./numbers.sh
 Please enter first number
 1
