@@ -1,0 +1,55 @@
+Here Document
+
+A here document is used to redirect input into an interactive shell script or program.
+
+We can run an interactive program within a shell script without user action by supplying the required input for the interactive program, or interactive shell script.
+
+The general form for a here document is −
+
+command << delimiter document delimiter Here the shell interprets the << operator as an instruction to read input until it finds a line containing the specified delimiter. All the input lines up to the line containing the delimiter are then fed into the standard input of the command.
+
+The delimiter tells the shell that the here document has completed. Without it, the shell continues to read input forever. The delimiter must be a single word that does not contain spaces or tabs.
+
+Following is the input to the command wc -l to count total number of line −
+
+$wc -l << EOF
+    This is a simple lookup program 
+    for good (and bad) restaurants
+    in Cape Town.
+EOF
+3
+$
+You can use here document to print multiple lines using your script as follows −
+
+#!/bin/sh
+
+cat << EOF
+This is a simple lookup program 
+for good (and bad) restaurants
+in Cape Town.
+EOF 
+This would produce following result −
+
+This is a simple lookup program for good (and bad) restaurants in Cape Town. The following script runs a session with the vi text editor and save the input in the file test.txt.
+
+#!/bin/sh
+
+filename=test.txt
+vi $filename <<EndOfCommands
+i
+This file was created automatically from
+a shell script
+^[
+ZZ
+EndOfCommands
+If you run this script with vim acting as vi, then you will likely see output like the following −
+
+$ sh test.sh
+Vim: Warning: Input is not from a terminal
+$
+After running the script, you should see the following added to the file test.txt −
+
+$ cat test.txt
+This file was created automatically from
+a shell script
+$
