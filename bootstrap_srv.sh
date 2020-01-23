@@ -1,7 +1,7 @@
 #!/bin/bash
 # https://www.golinuxcloud.com/run-script-at-startup-boot-without-cron-linux/?fbclid=IwAR2BDsV0KWGlcgLa4hQ7UZR9OUntX5fblTZBfHPvyaha-ekUzqffz5F3NcM
 ########################################################
-##### Start Script for start Services at startup  ######
+##### Start script for starting services at startup  ######
 ########################################################
 
 set +x
