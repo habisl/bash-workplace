@@ -15,7 +15,7 @@ dhclient
 echo "Restarting Docker Services"
 sudo systemctl stop docker
 sleep 30
-ystemctl start docker
+stemctl start docker
  
 echo "Starting Postgresql"
 systemctl restart postgresql
