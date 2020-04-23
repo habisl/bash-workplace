@@ -31,12 +31,6 @@ echo "Restarting Docker Services" | tee -a /var/log/startup_services.out
 sudo systemctl stop docker
 sleep 30
 systemctl start docker
-#
-#echo "Remove docker volume and service" | tee -a /var/log/startup_services.out
-#docker service rm consul consul-server vault daemon | tee -a /var/log/startup_services.out
-#docker volume rm consul-server consul-client | tee -a /var/log/startup_services.out
-#
-#su - dm -c "cd ~/packages/;./dmgr update --plan_file config/plan.yml" | tee -a /var/log/startup_services.out
 
 echo "Starting Postgresql" | tee -a /var/log/startup_services.out
 systemctl restart postgresql
