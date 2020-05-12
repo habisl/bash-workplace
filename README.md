@@ -2,6 +2,10 @@
 Reharsing stuff: 
 https://www.youtube.com/watch?v=oxuRxtrO2Ag
 
+### seful Examples
+
+https://www.golinuxcloud.com/run-while-loop-until-specific-time-shell-bash/
+
 #### Useful Links
 1. Using Shell Scripting to Automate Linux System Maintenance: 
 
@@ -27,6 +31,8 @@ $USER - The username of the user running the script.
 $HOSTNAME - The hostname of the machine the script is running on.
 
 $SECONDS - The number of seconds since the script was started.
+
+
 
 $RANDOM - Returns a different random number each time is it referred to.
 
