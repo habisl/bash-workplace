@@ -2,9 +2,11 @@
 Reharsing stuff: 
 https://www.youtube.com/watch?v=oxuRxtrO2Ag
 
-### seful Examples
+### useful Examples
 
 https://www.golinuxcloud.com/run-while-loop-until-specific-time-shell-bash/
+
+https://kupdf.net/queue/bash-101-hacks_5a64afa5e2b6f523483c1017_pdf?queue_id=-1&x=1601983221&z=MTMxLjIyOC4yLjIx
 
 #### Useful Links
 1. Using Shell Scripting to Automate Linux System Maintenance: 
